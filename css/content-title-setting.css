@@ -1,0 +1,19 @@
+.content-title {
+  color: #FFD6A4;
+  font-size: 10vmin;
+  border-bottom: 3px solid #FFD6A4;
+}
+
+.content-header {
+  font-size: 5vmin;
+}
+
+.content-text {
+  font-size: 4vmin;
+  color: #BDE4F4;
+}
+
+.content-subtitle {
+  font-size: 5vmin;
+  font-weight: 600;
+}

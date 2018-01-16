@@ -1,0 +1,8 @@
+@import "./index.css";
+@import "./btn-setting.css";
+@import "./go-to-top.css";
+@import "./content-title-setting.css";
+
+body {
+  background-color: #404969;
+}

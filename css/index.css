@@ -1,0 +1,55 @@
+@import "./go-to-top.css";
+
+body {
+  padding-top: 76px;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.nav-customize {
+  color: #fff;
+  background-color: #404969;
+  border-bottom: 1px rgba(0, 0, 0, 0.07) solid;
+  z-index: 99;
+}
+
+.--not-top {
+  transition: box-shadow 0.2s ease-in-out;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 1);
+}
+
+.nav-customize :link {
+  color: #fff;
+}
+
+.nav-dropdown-customize {
+  background-color: #0881A3;
+}
+
+.nav-dropdown-customize :hover {
+  background-color: #404969;
+}
+
+.btn-overview {
+  font-size: 2.2rem;
+  color: #0881A3;
+  border: 2px solid #0881A3;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+.btn-outline-secondary {
+  color: #0881A3;
+  border-color: #0881A3;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #0881A3;
+  border-color: #0881A3;
+  color: #fff;
+}
+
+.btn-outline-secondary:not([disabled]):not(.disabled):active {
+  background-color: #0881A3;
+  border-color: #0881A3;
+  color: #fff;
+}
