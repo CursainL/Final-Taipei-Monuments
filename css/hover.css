@@ -2340,7 +2340,7 @@
   right: 0;
   top: 0;
   bottom: 0;
-  border-color: #2098D1;
+  border-color: #ffffff;
   border-style: solid;
   border-width: 0;
   -webkit-transition-property: border-width;
@@ -2353,7 +2353,7 @@
 .hvr-reveal:hover:before, .hvr-reveal:focus:before, .hvr-reveal:active:before {
   -webkit-transform: translateY(0);
   transform: translateY(0);
-  border-width: 4px;
+  border-width: 20px;
 }
 
 /* Underline Reveal */
@@ -2469,8 +2469,8 @@
 }
 .hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
   box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 /* Box Shadow Outset */
