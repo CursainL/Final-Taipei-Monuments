@@ -8,7 +8,6 @@
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
     <title>台北城</title>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcKhgqJtnx7GMvQbtabrqnBPIfruDFL-o"></script>
 
   </head>
   <body>
@@ -75,6 +74,13 @@
     </div>
 
     <div class="container">
+
+      <div class="row justify-content-center my-4">
+        <button class="col-10 col-md-6 btn btn-outline-secondary text-center btn-overview py-2" onclick="geolocation()">
+          判斷地點
+        </button>
+      </div>
+
       <div class="row mt-5">
         <div class="col-6 col-md-3 my-3 wow fadeInUp" data-wow-delay="0.05s" data-wow-duration="0.7s">
           <div class="card">
@@ -167,12 +173,6 @@
         </button>
       </div>
 
-      <div class="row justify-content-center my-4">
-        <button class="col-10 col-md-6 btn btn-outline-secondary text-center btn-overview py-2" onclick="geolocation()">
-          判斷地點
-        </button>
-      </div>
-
     </div> <!-- leave container -->
 
     <nav class="navbar navbar-expand-lg navbar-light bg-dark justify-content-center mt-5 p-4">
@@ -186,6 +186,7 @@
     <script src="./js/go-to-top.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
     <script>new WOW().init();</script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcKhgqJtnx7GMvQbtabrqnBPIfruDFL-o"></script>
 
     <a href="#" class="back-to-top" name="webgolds">
       <img src="./img/top.png" alt="">

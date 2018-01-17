@@ -178,7 +178,7 @@ function getReverseGeocodingData(lat, lng) {
         if (status == google.maps.GeocoderStatus.OK) {
             console.log(results);
             var address = (results[0].formatted_address);
-            var userArea = (results[4]["address_components"][0]["short_name"])
+            var userArea = (results[0]["address_components"][3]["short_name"])
             console.log(userArea);
             jumpToArea(userArea);
         }
