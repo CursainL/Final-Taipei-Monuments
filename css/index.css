@@ -1,4 +1,7 @@
 @import "./go-to-top.css";
+@import "./hover.css";
+@import "./animate.css";
+@import "https://fonts.googleapis.com/earlyaccess/notosanstc.css";
 
 body {
   padding-top: 76px;

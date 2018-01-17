@@ -6,3 +6,13 @@
 body {
   background-color: #404969;
 }
+
+.map-set {
+  max-width: 100vmin;
+  height: 130vmin;
+}
+
+.layui-layer-content {
+  background: #3F4865;
+  border: 7px solid #BBE0EE;
+}
